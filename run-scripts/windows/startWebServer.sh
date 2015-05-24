@@ -14,4 +14,5 @@ echo "srcipt=[${SCRIPT_PATH}/game-server]"
 #echo "pwd   =[`pwd`]"
 
 echo '============  start web-server ============'
-node "${SCRIPT_PATH}/../../web-server/app.js"
+cd ../../web-server
+node app.js
