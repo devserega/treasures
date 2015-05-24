@@ -12,12 +12,10 @@ git config --global user.email "dsserega@gmail.com"
 git add .
 git commit -a -m "update"
 git push origin master
-pause
 Goto End
 
 :Error
 echo machine name not found
 
 :End
-pause
 exit
